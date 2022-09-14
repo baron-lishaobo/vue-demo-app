@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-prettier",
+        "stylelint-config-standard-scss",
+        "stylelint-config-prettier-scss",
+        "stylelint-config-html" ,
+        "stylelint-config-recommended-vue",
+        "stylelint-config-recommended-vue/scss"
+    ],
+    "overrides": [
+        {
+            "files": [
+                "*.vue",
+                "**/*.vue"
+            ],
+            "rules": {
+                "unit-allowed-list":["em","rem","s"]
+            }
+        }
+    ],
+    "customSyntax": "postcss-lit"
+}
