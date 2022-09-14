@@ -201,3 +201,11 @@ Tailwind的断点仅包括 min-width 而没有max-width，这意味这在较小�
   ```
 
 - 使用addbase添加的样式将会与Tailwind的其他基础样式一起添加到base层中。
+
+
+
+## Fix
+
+- if encountered` LF will be replaced by CRLF the next time Git touches it   `
+
+  execute  `git config --global core.autocrlf true`
