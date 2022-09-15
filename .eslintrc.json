@@ -9,7 +9,8 @@
         "plugin:vue/vue3-essential",
         "plugin:@typescript-eslint/recommended",
         "airbnb-base",
-        "prettier"
+        "prettier",
+        "stylelint-config-prettier-scss"
     ],
     "overrides": [
     ],
