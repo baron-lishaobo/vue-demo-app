@@ -18,7 +18,7 @@ export const APP_GLOBAL_LOCAL_CACHE_KEY='APP__GLOBAL__LOCAL__CACHE_KEY__';
 
 export const APP_GLOBAL_SESSION_CACHE_KEY='APP__GLOBAL__SESSION__CACHE__KEY__';
 
-export enum CacheEnum{
+export enum CacheTypeEnum{
     SESSION,
     LOCAL
 }

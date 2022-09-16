@@ -13,7 +13,47 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/":[
+        "src/*"
+      ],
+      "@/src*":[
+        "src*"
+      ],
+      "@/components*":[
+        "./src/components*"
+      ],
+      "@/enums*":[
+        "./src/enums*"
+      ],
+      "@/types*":[
+        "./src/types*"
+      ],
+      "@/utils*":[
+        "./src/utils*"
+      ],
+      "@/views*":[
+        "./src/views*"
+      ],
+      "@/widgets*":[
+        "./src/widgets*"
+      ],
+      "@/models*":[
+        "./src/models*"
+      ],
+      "@/router*":[
+        "./src/router*"
+      ],
+      "@/constants*":[
+        "./src/constants*"
+      ],
+      "#/*":[
+        "types/*"
+      ]
+      
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
 }

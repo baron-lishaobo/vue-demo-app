@@ -1,1 +1,0 @@
-declare type Recordable<T=never>=Record<string,T>;
